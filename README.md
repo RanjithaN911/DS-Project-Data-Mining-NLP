@@ -20,11 +20,9 @@ The outcome provides insight into preprocessing choices for real-world NLP workf
 
 DataCreation.ipynb – Scripts for data collection (Wikipedia, BBC, Guardian).
 
-Final_project_23032450.ipynb – Final integrated notebook.
+2303240-project.ipynb – Final integrated notebook.
 
-combined_corpus_new.csv – Collected raw dataset (~6,500 documents).
-
-combined_corpus_cleaned.csv – Preprocessed version.
+combined_dataset_New.csv – Collected raw dataset (~8577 documents).
 
 
  **Methodology**
@@ -35,7 +33,7 @@ Wikipedia API: articles on machine learning, climate change, politics, sports.
 
 RSS feeds: BBC, The Guardian.
 
-Final corpus size: ~6,500 documents (naturally imbalanced).
+Final corpus size: 8577 documents (naturally imbalanced).
 
 **2. Preprocessing**
 
@@ -49,7 +47,7 @@ Representation: TF-IDF vectors.
 
 **3. Manual Labeling**
 
-Subset of 500 documents manually annotated.
+Subset of 700 documents manually annotated.
 
 Used as ground truth for external validation (ARI).
 
@@ -83,10 +81,10 @@ Clustering: scikit-learn, scipy
 
 Evaluation: scikit-learn (Silhouette, ARI, DBI)
 
-Visualization: matplotlib, seaborn
+Visualization: matplotlib, 
 
 **Run the following notebooks in order:**
 
 DataCreation.ipynb
 
-cleaning_processing.ipynb
+2303240-project.ipynb
